@@ -97,7 +97,7 @@ HOVER, TRANSLATE & TRANSFORM EFFECT
 HOVER, TRANSLATE & TRANSFORM EFFECT
 --------------------------------*/
 @keyframes race {
-    0%, 100%{
+    0%, 100% {
 transform: translateY(0px);
 background-image: url("./Images/icons/smileyface1.png");
  }
