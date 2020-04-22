@@ -214,3 +214,13 @@ img:hover {
     transition: transform 1s;
 	transform: scale(1.05);
 }
+
+.footer {
+  height: 200px;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
