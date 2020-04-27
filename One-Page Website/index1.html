@@ -36,36 +36,85 @@
 
     <!-- END ABOUT-->
 
-    <!-- GALLERY -->
-    <section>
-    <div id="GALLERY">
-      <h1> See amazing neon art from around the world</h1>
-    </section
+
+  <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
   </div>
+  <div class="column">
+    <img src="img_mountains.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img_nature.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  
+</div>
 
-  <!--GALLERY IMAGE 1-->
-  <section>
-    <img src="./images/thumbsnailpics/pics1.jpg" alt="big moon" width="500" height="600">
-</section>
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-<!-- End Gallery 1-->
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img_lights.jpg" style="width:100%">>
+    </div>
 
-<!--GALLERY IMAGE 2-->
-<section>
-  <img src="./images/thumbsnailpics/pics3.jpg" alt="big moon" width="500" height="600">
-</section>
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img_mountains.jpg" style="width:100%">>
+    </div>
 
-<!-- End Gallery 2-->
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img_nature.jpg" style="width:100%">>
+    </div>
 
-<!--GALLERY IMAGE 3-->
-<section>
-  <img src="./images/thumbsnailpics/pics2.jpg" alt="big moon" width="500" height="600">
-</section>
+  
 
-<!-- End Gallery 3-->
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-<!-- VIDEO -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ciIF1WA9ovs" frameborder="10" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img_lights.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img_mountains.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img_nature.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--CONTACT SECTION-->
@@ -108,6 +157,7 @@
 
 
 
+<script src="one_page_website.js"></script>
 
 
 
