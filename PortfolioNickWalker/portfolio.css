@@ -1,0 +1,229 @@
+body {
+  margin: 0%;
+  background-color: red;
+}
+
+.navigation {
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+#Typing_Video {
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.Video_Text {
+  background-color: rgba(0,0,0, 0.7);
+  color: white;
+  width: 100%;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.columns {
+  color: white;
+  margin-top: 5px;
+}
+
+.column1 {
+  height: 500px;
+  background-color: rgb(63, 63, 63);;
+  width: 50%;
+ float: left;
+ border-radius: 1%;
+ overflow: hidden;
+
+
+
+}
+
+.image1 {
+  text-align: center;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 1%;
+  overflow: hidden;
+
+}
+
+.column2 {
+  height: 500px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  float: left;
+  text-align: center;
+  box-shadow: darkgreen;
+  border-radius: 1%;
+
+ 
+}
+
+.column3 {
+  height: 500px;
+  background-color: white;
+  width: 50%;
+  float: left;
+  text-align: center;
+  border-radius: 1%;
+
+ 
+}
+
+.gittext {
+  margin-top: 15%;
+}
+
+
+
+.column4 {
+  height: 500px;
+  background-color: rgb(63, 63, 63);
+  width: 50%;
+  float: left;
+  border-radius: 1%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(63, 63, 63);
+  border-radius: 5px;
+  border: 1px solid white;
+  box-sizing: border-box;
+
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #rgb(63, 63, 63);
+  padding: 20px;
+  margin-top: 5%;
+  color: white;
+}
+
+.specialcontact {
+  text-align: center;
+  color: wheat;
+}
+
+.submit1 {
+  color: white;
+}
+
+
+
+h1 {
+	text-transform: uppercase; /* We are capitalizing our headings */
+	font-family: "Trebuchet MS", Optima; 
+	text-align: center;
+	margin-top: 3%; /* We are adding a small margin above the headings */
+	color: #1a1a1a;
+}
+
+p:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+h1:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+h2:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+img:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+
+.column1:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column2:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column3:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column4:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.footer {
+  height: 200px;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
